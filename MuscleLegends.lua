@@ -9,16 +9,14 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 -- 🏠 Creation
-local Window = Library:CreateWindow({
+local Window = Fluent:CreateWindow({
     Title = "CAVEIRAHUB - Muscle Legends",
     SubTitle = "Powered by Caveira",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
-    Resize = true,
-    MinSize = Vector2.new(470, 380),
-    Acrylic = true,
-    Theme = "Darker",
-    MinimizeKey = Enum.KeyCode.RightControl
+    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 
 local Tabs = {
@@ -2295,5 +2293,6 @@ local treadmillToggle = Tabs.AutoStuff:CreateToggle("Tread Toggle", {
 	end
 
 })
+
 
 
