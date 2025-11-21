@@ -19,7 +19,9 @@ local Window = Library:CreateWindow{
     Acrylic = true,
     Theme = "Darker",
     MinimizeKey = Enum.KeyCode.RightControl
-}local Tabs = {
+})
+
+local Tabs = {
 	Main = Window:CreateTab{
 		Title = "Main",
 		Icon = "phosphor-house-bold"
@@ -2293,3 +2295,4 @@ local treadmillToggle = Tabs.AutoStuff:CreateToggle("Tread Toggle", {
 	end
 
 })
+
