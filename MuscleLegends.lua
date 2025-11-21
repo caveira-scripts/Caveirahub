@@ -9,7 +9,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 -- 🏠 Creation
-local Window = Library:CreateWindow{
+local Window = Library:CreateWindow({
     Title = "CAVEIRAHUB - Muscle Legends",
     SubTitle = "Powered by Caveira",
     TabWidth = 125,
@@ -2295,4 +2295,5 @@ local treadmillToggle = Tabs.AutoStuff:CreateToggle("Tread Toggle", {
 	end
 
 })
+
 
