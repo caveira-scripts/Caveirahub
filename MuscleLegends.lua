@@ -9,8 +9,8 @@ local SaveManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.
 local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau"))()
 -- 🏠 Creation
 local Window = Library:CreateWindow{
-    Title = "DYHUB - Muscle Legends (dsc.gg/dyhub)",
-    SubTitle = "Powered by DYHUB TEAM",
+    Title = "Caveira Hub - Muscle Legends ",
+    SubTitle = "Powered by CaveiraHub",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
     Resize = true,
@@ -2292,3 +2292,4 @@ local treadmillToggle = Tabs.AutoStuff:CreateToggle("Tread Toggle", {
 	end
 
 })
+
