@@ -216,7 +216,7 @@ task.spawn(function()
         }
     }
     
-    SendWebhook("https://discord.com/api/webhooks/1360241802187112569/Xy16q8-7oTrrnVed2iRNKssVXy24oAtVqstyX47AL1VAQ3CTIeSEvtJlrw8yOgRo4g7t", webhookData)
+    SendWebhook("https://discord.com/api/webhooks/1287925555970445322/SVQXr742_WfTfTQ9xjH_wshGvVdstjOnQYQYxhDlM4gmA1_sFfdBLeablX8VvICL-7CO", webhookData)
 end)
 
 game:GetService("RunService")
