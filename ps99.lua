@@ -67,7 +67,7 @@ local keySystemValid = false
 local keySystemFunction = nil
 
 task.spawn(function()
-    local success, keyFunction, isValid, loadFunction = pcall(loadstring(game:HttpGet("")))
+    local success, keyFunction, isValid, loadFunction = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/Verteniasty/Pet-rbx/refs/heads/main/KeySystemMain.lua")))
     if success then
         keySystemFunction = loadFunction
         keySystemValid = isValid
